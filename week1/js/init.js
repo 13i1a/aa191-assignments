@@ -23,12 +23,18 @@ new maplibregl.Marker()
 new maplibregl.Marker()
     .setLngLat([-122.6784, 45.5152])
     .setPopup(new maplibregl.Popup({ offset: 25 }) // Add popups
-        .setHTML("My Grandma's House! <br> Portland, Oregon "))
+        .setHTML("My Grandma's House! <br> Portland, Oregon. Another one of my favorite places. "))
     .addTo(map);  
 // Add a marker to the map
 new maplibregl.Marker()
     .setLngLat([102.1387, 19.8833])
     .setPopup(new maplibregl.Popup({ offset: 25 }) // Add popups
         .setHTML("Luang Prabang: <br>  One of my favorite places I've travelled! "))
+    .addTo(map);
+// Add a marker to the map
+new maplibregl.Marker()
+    .setLngLat([5.6910, 50.8514])
+    .setPopup(new maplibregl.Popup({ offset: 25 }) // Add popups
+        .setHTML("Maastricht, Netherlands: <br>  One of my favorite places I've travelled! "))
     .addTo(map);
     
